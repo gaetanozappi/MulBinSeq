@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<title>Sequential Multiplier Simulator</title>
+	<meta charset="utf-8">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/exe.js"></script>
+</head>
+
+<body>
+
+<img class="imde" src="img/molt-0.png" alt="">
+<img class="imde" src="img/molt-1.png" alt="">
+<img class="imde" src="img/molt-2.png" alt="">
+<img class="imde" src="img/molt-3.png" alt="">
+<div class="center">
+	<br>
+	<div class="elemento" >
+		<span class="ec">0</span>
+		<span class="ea">0000</span>
+		<span class="eq">0000</span>
+		<span class="em">0000</span>
+		<img id="guide" title="Help" onclick="Guide();" src="img/help.png" alt="">
+	</div>
+	<br>
+	<div class="btn-group">
+		<button type="button" class="btn btn-default" onclick="Calc();">Auto [C]</button>
+	 	<button type="button" class="btn btn-default" onclick="Exe();">Exercise [E]</button>
+	</div>
+	<div class="btn-group">
+		<button type="button" class="btn btn-default" onclick="Init();">Start [A]</button>
+		<button type="button" class="btn btn-default" onclick="Step();">Step [S]</button>
+		<button type="button" class="btn btn-default" onclick="Back();">Back [B]</button>
+		<button type="button" class="btn btn-default" onclick="Reset();">Reset [R]</button>
+	</div>
+	<br><br>
+	<div id="Exercise">
+		<select class="input_c">
+			<option value="0">0</option>
+			<option value="1">1</option>
+		</select>
+		<select class="input_a">
+			<option value="0000">0000</option>
+			<option value="0001">0001</option>
+			<option value="0010">0010</option>
+			<option value="0011">0011</option>
+			<option value="0100">0100</option>
+			<option value="0101">0101</option>
+			<option value="0110">0110</option>
+			<option value="0111">0111</option>
+			<option value="1000">1000</option>
+			<option value="1001">1001</option>
+			<option value="1010">1010</option>
+			<option value="1011">1011</option>
+			<option value="1100">1100</option>
+			<option value="1101">1101</option>
+			<option value="1110">1110</option>
+			<option value="1111">1111</option>
+		</select>
+		<select class="input_q">
+			<option value="0000">0000</option>
+			<option value="0001">0001</option>
+			<option value="0010">0010</option>
+			<option value="0011">0011</option>
+			<option value="0100">0100</option>
+			<option value="0101">0101</option>
+			<option value="0110">0110</option>
+			<option value="0111">0111</option>
+			<option value="1000">1000</option>
+			<option value="1001">1001</option>
+			<option value="1010">1010</option>
+			<option value="1011">1011</option>
+			<option value="1100">1100</option>
+			<option value="1101">1101</option>
+			<option value="1110">1110</option>
+			<option value="1111">1111</option>
+		</select>
+		<select class="input_select">
+			<option value="1">Add</option>
+			<option value="2">Noadd</option>
+			<option value="3">Scorrimento</option>
+		</select>
+		<div class="btn-group">
+			<button type="button" class="btn btn-default" onclick="Help();">Help [H]</button>
+	 		<button type="button" class="btn btn-default" onclick="ExeP();">Exe [P]</button>
+		</div>
+		<br><br>
+	</div>
+	<div id="info"></div>
+	<div class="text">
+		<table class="addE"></table>
+	</div>
+</div>
+<br>
+
+</body>
+</html>

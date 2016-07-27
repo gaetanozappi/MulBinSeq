@@ -1,0 +1,96 @@
+body{
+	    font-family: Arial,Helvetica,sans-serif;
+	    cursor:default;
+	}
+	div{
+      -webkit-user-select: none;  
+      -moz-user-select: none;    
+      -ms-user-select: none;      
+      user-select: none;
+	}
+    a{
+    	cursor:pointer;
+    }
+    a, a:hover, a:active{
+    text-decoration: none;
+    }
+	.elemento{
+		font-size: 15px;
+	    font-weight:bold;
+	    background: url('../img/molt-0.png') no-repeat scroll 0% 0% transparent;
+	}
+	.text,.elemento{
+	    height: 342px;
+	    width: 490px;
+		//background-color: #F5F5F5;
+		border: 1px solid #E3E3E3;
+		border-radius: 4px;
+	}
+	.text{
+		height: 242px;
+	    overflow-y:scroll;
+	}
+	.ec{
+		position: relative;
+		top: 77px;
+		left: 42px;
+	    z-index: 1px;
+	    float: left;
+	}
+	.ea{
+		position: relative;
+		top: 74px;
+		left: 82;
+		letter-spacing: 29px;
+	    z-index: 2px;
+	    float: left;
+	    left: 85px;
+	}
+	.eq{
+		position: relative;
+		top: 74px;
+		left: 129;
+		letter-spacing: 29px;
+	    z-index: 3px;
+	    float: left;
+	    left: 130px;
+	}
+	.em{
+		position: relative;
+		top: 300px;
+		left: -205px;
+		letter-spacing: 29px;
+	    z-index: 4px;
+	    float: left;
+	}
+	.addE{
+		width: 350px;
+		text-align: center;
+	    font-weight: bold;
+	}
+
+	.ck{
+		color: #007FFF;
+	}
+	#Exercise,.imde{
+		display: none;
+	}
+	.hidel{
+		visibility: hidden;
+	}
+	#info{
+		display: none;
+	    border-color: #EED3D7;
+	    padding: 15px;
+	    margin-bottom: 20px;
+	    border: 1px solid #E3E3E3;
+	    border-radius: 4px;
+	    width: 495px;
+	}
+	#guide{
+		cursor: pointer;
+	}
+	.center{
+		margin: auto;
+		width: 500px;
+	}
